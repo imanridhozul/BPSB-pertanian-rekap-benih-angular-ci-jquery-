@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 11pt;
+    font-family: "Times New Roman", Times, serif;
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#logofakultas{
+    margin-top: -10px;
+    float: left;
+}
+#logofakultas img{
+    height: 80px;
+    margin-top: 3px;
+}
+#isi{
+    margin-left: 5%;
+    float: left;
+}
+.halaman {
+    width: 21cm;
+    padding: 1cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+@halaman {
+    size: A4;
+    margin: 0;
+}
+
+.judul {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+}
+.alamat {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+}
+.garis {
+    background-color: black;
+    padding: 1px;
+}
+.jdlk {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.jdlk-16 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    text-align: center;
+}
+.jdlb {
+    font-family: Times;
+    font-size: 90px;
+    text-align: center;
+}
+.ratakanan {
+    text-align: right;
+}
+.ratakiri {
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+}
+
+.cetak.krs {
+    font-family: monospace;
+    font-size: 12px;
+    color: #000;
+}
+
+.cetak.krs #logofakultas img {
+    height: 120px;
+}
+.cetak.krs table tr th,
+.cetak.krs table tr td {
+    padding: 3px 10px;
+    border-top: 1px solid black;
+}
+.cetak.krs .table-bordered {
+    border: 1px solid black;
+}
+.cetak.krs table.table-bordered tr th,
+.cetak.krs table.table-bordered tr td {
+    border: 1px solid black;
+}
+.cetak.krs .ttd .nama {
+    display: block;
+    text-decoration: underline;
+}
+.cetak.krs table.table-noborder tr th,
+    .cetak.krs table.table-noborder tr td {
+        border: 0px solid black;
+    }
+
+@media print {
+
+    /* orientasi kertas */
+    html.landscape, body.landscape {
+        width: 15in;
+        height: 8.5in;
+    }
+    html.portrait, body.portrait {
+        width: 8.5in;
+        height: 15in;
+    }
+
+    .halaman {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+
+    /* baru */
+    .judul {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 17px;
+    }
+    .alamat {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 10px;
+    }
+    .garis {
+       /* background-color: black;
+        padding: 1px;*/
+    }
+    .jdlk {
+        font-family: Times;
+        font-size: 12px;
+        text-align: center;
+    }
+    .jdlk-16 {
+        font-family: Times;
+        font-size: 16px;
+        text-align: center;
+    }
+    .jdlb {
+        font-family: Times;
+        font-size: 90px;
+        text-align: center;
+    }
+    .ratakanan {
+        text-align: right;
+    }
+    .ratakiri {
+        text-align: left;
+        padding: 10px 0px 0px 0px;
+    }
+
+    /* krs */
+    .cetak.krs {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 12px;
+        color: black;
+        margin: -30px;
+    }
+
+    
+    
+    .cetak.krs table tr th,
+    .cetak.krs table tr td {
+        padding: 3px 10px;
+        border-top: 1px solid black;
+    }
+    .cetak.krs .table-bordered {
+        border: 1px solid black;
+    }
+    .cetak.krs table.table-bordered tr th,
+    .cetak.krs table.table-bordered tr td {
+        border: 1px solid black;
+    }
+
+    .cetak.krs table.table-noborder tr th,
+    .cetak.krs table.table-noborder tr td {
+        border: 0px solid black;
+    }
+
+    .cetak.krs .ttd .nama {
+        display: block;
+        text-decoration: underline;
+        padding: 0px;
+    }
+}

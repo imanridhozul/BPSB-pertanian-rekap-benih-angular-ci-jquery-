@@ -1,0 +1,8 @@
+[25-Aug-2016 11:22:44 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/gililomb/public_html/sipkl/application/controllers/Staff.php on line 388
+[09-Sep-2016 03:03:23 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 18
+[09-Sep-2016 03:03:37 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 18
+[09-Sep-2016 03:03:50 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 18
+[09-Sep-2016 03:03:51 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 18
+[09-Sep-2016 03:03:55 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 18
+[09-Sep-2016 13:58:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 30
+[09-Sep-2016 14:31:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/gililomb/public_html/sipkl/application/controllers/Home.php on line 37

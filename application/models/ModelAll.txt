@@ -1,0 +1,18 @@
+<?php
+    class ModelPkl extends CI_model
+	{
+		function __construct()
+		{
+			parent::__construct();
+		}
+		
+		function dataHome(){
+			return $this->db->query("select tanaman from varietas group by tanaman")->result();
+		}
+		function insert($data){
+			 $this->db->insert('varietas', $data);
+		}
+		function insertD($data){
+			 $this->db->insert('data_kdl', $data);
+		}
+?>
